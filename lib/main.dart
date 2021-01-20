@@ -1,7 +1,3 @@
-import 'package:componentes/src/pages/alert_page.dart';
-import 'package:componentes/src/pages/avatar_page.dart';
-import 'package:componentes/src/pages/home_page.dart';
-import 'package:componentes/src/pages/home_temp.dart';
 import 'package:componentes/src/pages/page_not_found.dart';
 import 'package:componentes/src/routes/routes.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +12,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       debugShowCheckedModeBanner: false,
       /* home: HomePage(), */
-      routes: rutas,
+      routes: getApplicationRoutes(),
       onGenerateRoute: (settings) {
         return MaterialPageRoute(builder: (context) => PageNoFound());
       },
