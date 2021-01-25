@@ -1,5 +1,3 @@
-import 'package:componentes/src/pages/home_page.dart';
-import 'package:componentes/src/routes/routes.dart';
 import 'package:flutter/material.dart';
 
 class CardPage extends StatelessWidget {

@@ -8,7 +8,6 @@ class InputPage extends StatefulWidget {
 class _InputPageState extends State<InputPage> {
   String _nombre = "";
   String _email = "";
-  String _pass = "";
   String _date = "";
   String _opcionSeleccionada = 'Volar';
 
@@ -90,9 +89,7 @@ class _InputPageState extends State<InputPage> {
           suffixIcon: Icon(Icons.vpn_key),
           icon: Icon(Icons.lock)),
       onChanged: (valor) {
-        setState(() {
-          _pass = valor;
-        });
+        setState(() {});
       },
     );
   }
